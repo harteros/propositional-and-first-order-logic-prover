@@ -1,0 +1,22 @@
+[
+{
+"CNFSubClause":
+[
+{"name": "King","arguments":"x","neg": true},
+{"name": "Greedy","arguments":"x","neg": true},
+{"name": "Evil","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "King","arguments":"John","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Greedy","arguments":"John","neg": false}
+]		
+}
+]

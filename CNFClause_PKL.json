@@ -1,0 +1,57 @@
+[
+{
+"CNFSubClause":[
+{"name": "American","arguments":"x", "neg": true},
+{"name": "Weapon","arguments":"y", "neg": true},
+{"name": "Sells","arguments":"x,y,z", "neg": true},
+{"name": "Hostile","arguments":"z", "neg": true},
+{"name": "Criminal","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Missile","arguments":"x","neg": true},
+{"name": "Owns","arguments":"Nono,x","neg": true},
+{"name": "Sells","arguments":"West,x,Nono","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Missile","arguments":"x","neg": true},
+{"name": "Weapon","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Enemy","arguments":"x,America","neg": true},
+{"name": "Hostile","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "American","arguments":"West","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Missile","arguments":"M1","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Owns","arguments":"Nono,M1","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Enemy","arguments":"Nono,America","neg": false}
+]		
+}
+]

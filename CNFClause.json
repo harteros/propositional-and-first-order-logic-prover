@@ -1,0 +1,23 @@
+[
+{
+"CNFSubClause":[{"name": "P", "neg": true},{"name": "Q", "neg": false}]		
+},
+{
+"CNFSubClause":[{"name": "L", "neg": true},{"name": "M", "neg": true},{"name": "P", "neg": false}]		
+},
+{
+"CNFSubClause":[{"name": "B", "neg": true},{"name": "L", "neg": true},{"name": "M", "neg": false}]		
+},
+{
+"CNFSubClause":[{"name": "A", "neg": true},{"name": "P", "neg": true},{"name": "L", "neg": false}]		
+},
+{
+"CNFSubClause":[{"name": "A", "neg": true},{"name": "B", "neg": true},{"name": "L", "neg": false}]		
+},
+{
+"CNFSubClause":[{"name": "A", "neg": false}]		
+},
+{
+"CNFSubClause":[{"name": "B", "neg": false}]		
+}
+]

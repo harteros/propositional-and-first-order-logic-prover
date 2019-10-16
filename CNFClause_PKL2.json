@@ -1,0 +1,57 @@
+[
+{
+"CNFSubClause":[
+{"name": "Person","arguments":"x", "neg": true},
+{"name": "GoodLecturesFOL","arguments":"y", "neg": true},
+{"name": "Gives","arguments":"x,y,z", "neg": true},
+{"name": "Students","arguments":"z", "neg": true},
+{"name": "GoodTeacher","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "GoodLecturesLogic","arguments":"x","neg": true},
+{"name": "Have","arguments":"People,x","neg": true},
+{"name": "Gives","arguments":"Yannick,x,People","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "GoodLecturesLogic","arguments":"x","neg": true},
+{"name": "GoodLecturesFOL","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Study","arguments":"x,ANU","neg": true},
+{"name": "Students","arguments":"x","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Person","arguments":"Yannick","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "GoodLecturesLogic","arguments":"M1","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Have","arguments":"People,M1","neg": false}
+]		
+},
+{
+"CNFSubClause":
+[
+{"name": "Study","arguments":"People,ANU","neg": false}
+]		
+}
+]
